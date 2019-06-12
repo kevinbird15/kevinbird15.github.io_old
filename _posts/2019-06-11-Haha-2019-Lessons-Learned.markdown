@@ -2,6 +2,8 @@
 
 I recently competed in the [Haha 2019 Competition](https://competitions.codalab.org/competitions/22194) and ended up getting second place on predicting whether a tweet would be funny or not and third place on predicting how funny the tweet would be.  
 
+![clas_ranking](/assets/images/clas_ranking.png)
+
 I wanted to share some of my lessons learned from this competition to hopefully prevent somebody else (maybe even my future self) from making the same mistakes.  
 
 1. **Using `git add .` to put my code into a Github Repo**
@@ -34,7 +36,7 @@ I wanted to share some of my lessons learned from this competition to hopefully 
 
 Thanks for reading and hopefully there is something useful here for you.  My idea is to do a recap like this after each competition and hopefully over time it makes me a better coder and practitioner.  My next blog post is going to be a walkthrough of Hiromi and my approach to this competition because even with all of the mistakes I made, we ended up with a pretty solid classifier and regressor at the end of the day.  
 
-![clas_ranking](/assets/images/clas_ranking.png)
+
 
 
 
