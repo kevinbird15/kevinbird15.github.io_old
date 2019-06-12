@@ -1,5 +1,3 @@
-# Haha 2019 Competition
-
 I recently competed in the [Haha 2019 Competition](https://competitions.codalab.org/competitions/22194) and ended up getting second place on predicting whether a tweet would be funny or not and third place on predicting how funny the tweet would be.  
 
 ![clas_ranking](/assets/images/clas_ranking.png)
