@@ -1,6 +1,6 @@
 I recently competed in the [Haha 2019 Competition](https://competitions.codalab.org/competitions/22194) and ended up getting second place on predicting whether a tweet would be funny or not and third place on predicting how funny the tweet would be.  
 
-![clas_ranking](/assets/images/clas_ranking.png)
+![clas_ranking](/assets/images/2019-06-11-Haha-2019-Lessons-Learned/clas_ranking.png)
 
 I wanted to share some of my lessons learned from this competition to hopefully prevent somebody else (maybe even my future self) from making the same mistakes.  
 
@@ -16,6 +16,14 @@ I wanted to share some of my lessons learned from this competition to hopefully 
 
    This ended up being one of my less impactful issues, but it could have been a lot bigger deal.  I didn't realize that not only did I need to save the model to reload the model, I also needed to save the vocab associated with the databunch.  I put it lower than the databunch mistake because if I would have done that, it would have made this less important. 
 
+   ```python
+   #Load vocab in fastai
+   sp_vocab = Vocab.load("30k_Haha.vocab")
+   
+   #Save vocab in fastai
+   sp_vocab.save("30k_Haha.vocab")
+   ```
+
 4. **Not keeping the Github Repo clean**
 
    This may seem similar to #1 and it is similar, but it is a different issue.  Where did my submissions go? Where did my notebooks live?  Where did my test notebooks go?  All of these were in my root directory.  This isn't an issue when you have one notebook and one dataset, but it will grow.  Just set your structure up at the beginning and have a directory for test notebooks, solid notebooks, data, models, and submissions.  
@@ -24,9 +32,16 @@ I wanted to share some of my lessons learned from this competition to hopefully 
 
    When I saved things, I manually changed the names of everything.  This led to some files being overwritten that I would have liked to have had.  I also would have used this in #4 to not only put them in the directories I mentioned, but also add a date file to those folders so I could have more organization.  
 
+   I would do something like this next time and run it in the first cell of the notebook so that all of the cells from that run would be timestamped together.  
+
+   ```python
+   import datetime
+   year, month, day, hour, minute, second,_,_,_ = datetime.datetime.now().timetuple()
+   ```
+
 6. **Not Trying Blah**
 
-   One quote that I first heard from Jeremy Howard during his fastai deep learning course is that if you are wondering if blah is a good idea, to try blah and see.  Blah being any crazy idea or hunch.  Until you test out an idea it is both the best and worst idea you've ever had and you won't know which it is until you test it out.  
+   One quote that I first heard from Jeremy Howard during his fastai deep learning course is that if you are wondering if blah is a good idea, to try blah and see.  Until you test out an idea it could be both the best and worst idea you've ever had and you won't know which it is until you test it out.  
 
  7. **Not changing hyper-parameters**
 
