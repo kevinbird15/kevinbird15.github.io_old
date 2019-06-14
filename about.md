@@ -10,7 +10,7 @@ I went to the University of Nebraska in Omaha, NE where I received my bachelors 
 
 While I was there, I worked as an Intern at Conagra for 2 years.  I helped automate some server fixes based off health checks that were being filtered into everybody's email folders.  This is also where I learned how to create shell scripts and automate processes.  During my time at Conagra, I was also exposed to data analytics for the first time.  I wasn't doing data analytics myself at this time, but it was at this point where I realized that I wanted to explore this area further.  I had a great experience at Conagra, but I knew I needed to try a smaller company.
 
-At this point, I transitioned to a startup, Flywheel.  Where I learned a lot about web development and general environment and version control.  I used some of my server experience I learned at Conagra to help analyze logs to detect malicious activity and create a dashboard to show the support team what our customers were saying about us.  
+At this point, I transitioned to a startup, Flywheel, where I learned a lot about web development and general environment and version control.  I used some of my server experience I learned at Conagra to help analyze logs to detect malicious activity and create a dashboard to show the support team what our customers were saying about us.  
 
 I had a short stint at Sogeti as a consultant where I learned the things I did and didn't like about being a consultant.  I really like the utility that consultants can provide, but shouldn't be the only person on a project.  At the end of the day, I believe that a company needs to have employees that own the process and take ownership of the process.  
 
