@@ -1,6 +1,6 @@
 
 
-Hiromi and I recently competed in the[ Haha 2019 Humor Detection challenge](https://www.fing.edu.uy/inco/grupos/pln/haha/) and received a second place finish on classification (predicting whether this tweet was intended to be humor by the author) and a third place finish on regression (predicting an average funniness score value for a tweet in a 5-star ranking). 
+Hiromi ([Medium](https://medium.com/@hiromi_suenaga) and [Twitter](https://twitter.com/hiromi_suenaga)) and I recently competed in the[ Haha 2019 Humor Detection challenge](https://www.fing.edu.uy/inco/grupos/pln/haha/) and received a second place finish on classification (predicting whether this tweet was intended to be humor by the author) and a third place finish on regression (predicting an average funniness score value for a tweet in a 5-star ranking). 
 
 This post is written by both Hiromi and I and will contain a high-level explanation of our approach. Hopefully, this is something that people find value in and if there are any parts that aren't clear, please reach out to either of us on Twitter or the Fastai forums and we will clarify our approach!
 
@@ -46,4 +46,4 @@ A few things that stuck out to us during this competition were:
 
 #### Acknowledgments
 
-We would like to thank Jeremy Howard, Rachel Thomas, and the entire Fast.ai team for providing a world-class education to many aspiring ML practitioner around the world.
+We would like to thank [Jeremy Howard](https://twitter.com/jeremyphoward), [Rachel Thomas](https://twitter.com/math_rachel), and the entire Fast.ai team for providing a world-class education to many aspiring ML practitioner around the world.
